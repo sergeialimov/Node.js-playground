@@ -1,0 +1,13 @@
+{
+  "name": "jsdoc",
+  "version": "1.0.0",
+  "description": "Generate jsdoc",
+  "dependencies": {
+    "jsdoc": "^3.6.5"
+  },
+  "scripts": {
+    "start": "node_modules/jsdoc/jsdoc.js src/"
+  },
+  "author": "Sergei Alimov",
+  "license": "ISC"
+}
