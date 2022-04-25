@@ -1,3 +1,5 @@
+// test with curl -X POST http://localhost:8081/echo -d "test request"
+
 const http = require('http');
 const { listenerCount } = require('process');
 
