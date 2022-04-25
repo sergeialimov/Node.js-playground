@@ -1,3 +1,3 @@
 const { method, URL } = request;
-const userAgent = headers['user-agent'];
 
+const userAgent = headers['user-agent'];
