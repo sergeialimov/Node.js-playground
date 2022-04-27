@@ -6,7 +6,6 @@
     "type": "git",
     "url": "git+https://github.com/sergeialimov/Node.js-playground.git"
   },
-  "type": "module",
   "author": "Sergei Alimov",
   "homepage": "https://github.com/sergeialimov/Node.js-playground#readme"
 }
