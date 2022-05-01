@@ -2,10 +2,14 @@
   "name": "node.js-playground",
   "version": "1.0.0",
   "description": "Play with Node.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergeialimov/Node.js-playground.git"
   },
   "author": "Sergei Alimov",
-  "homepage": "https://github.com/sergeialimov/Node.js-playground#readme"
+  "homepage": "https://github.com/sergeialimov/Node.js-playground#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.4"
+  }
 }
