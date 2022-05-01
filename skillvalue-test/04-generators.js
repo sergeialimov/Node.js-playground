@@ -1,13 +1,15 @@
 /**
  * What would be output of the following code
  * 
- * The answer: { value: 0, done: false }
+ * The answer: { value: undefined, done: true }
  */
 
 function* getNext() {
-  for (let i = 0; i < 0; i++) {
-    yield i;
-  }
+  // for (let i = 0; i < 0; i++) {
+  //   yield i;
+  // }
+  // yield 1;
+  return 1;
   
 }
 
