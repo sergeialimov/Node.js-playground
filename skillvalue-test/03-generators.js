@@ -13,4 +13,4 @@ function* getNext() {
 
 let caller = getNext();
 
-console.log(caller.next());
+console.log(caller.next()); // { value: 0, done: false }

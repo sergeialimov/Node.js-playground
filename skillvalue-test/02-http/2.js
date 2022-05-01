@@ -7,13 +7,16 @@ import http from 'http';
 
 http.get('http://localhost:8081/test', (res) => {
   let rawData = '';
-  res.on('data', (chunk, smth) => {
+
+  // only one argument
+  res.on('data', (chunk) => {
     rawData += chunk;
   });
 
   res.on('end', () => {
     try {
       const data = JSON.parse(rawData);
+
       console.log(data.data);
     } catch (err) {
       console.error(err);

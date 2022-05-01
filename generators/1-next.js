@@ -6,6 +6,7 @@ function* generator() {
 
 const gen = generator();
 
-console.log(gen.next().value); // 1
-console.log(gen.next().value); // 2
-console.log(gen.next().value); // 3
+console.log(gen.next()); // { value: 1, done: false }
+console.log(gen.return('ret'))
+console.log(gen.next()); // { value: 2, done: false }
+console.log(gen.next()); // { value: 3, done: false }
