@@ -1,0 +1,4 @@
+What is the difference between http.get() and http.request()?
+
+http.get() calls http.end() automatically
+
