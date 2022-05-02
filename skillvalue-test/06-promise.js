@@ -9,7 +9,9 @@
 function methodA(param) {
   return new Promise((resolve, reject) => {
     const newJsonObject = JSON.parse(param);
+
     console.log('methodA has been called');
+
     resolve(newJsonObject);
   });
 }

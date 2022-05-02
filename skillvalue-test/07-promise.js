@@ -16,6 +16,7 @@ function methodToReject(param) {
 methodToReject()
   .catch((err) => {
     console.error(`catch 1 ${err}`);
+    // throw Error('One more error'); // enter the second catch
   })
   .catch((err) => {
     console.error(`catch 2 ${err}`);
