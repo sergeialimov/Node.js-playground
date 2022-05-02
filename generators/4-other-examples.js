@@ -1,4 +1,9 @@
- function* getNext() {
+/**
+ * Both yield and return change value of `value`.
+ * return also set `done` as true when yield doesn't
+ */
+
+function* getNext() {
   yield 1;
 }
 let caller = getNext();
