@@ -8,7 +8,7 @@
 
 function methodA(param) {
   return new Promise((resolve, reject) => {
-    let newJsonObject = JSON.parse(param);
+    const newJsonObject = JSON.parse(param);
     console.log('methodA has been called');
     resolve(newJsonObject);
   });

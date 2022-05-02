@@ -16,9 +16,7 @@ let xxx = '';
 const sandbox = { xxx };
 
 
-// console.log(sandbox)
 vm.createContext(sandbox);
 vm.runInContext('const os = require(`os`); xxx = os.hostname();', sandbox);
-// vm.runInContext('console.log("test")', sandbox); //(require);
 
 console.log(sandbox.xxx);

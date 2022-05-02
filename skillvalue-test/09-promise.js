@@ -16,5 +16,3 @@ Promise.all(promises)
     console.log(promises);
   });
 
-
-
