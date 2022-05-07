@@ -1,4 +1,5 @@
 /**
+ * ReferenceError: __filenane is not defined in ES module scope
  * ReferenceError: __dirname is not defined in ES module scope
  */
 
