@@ -1,0 +1,10 @@
+node --v8-options | grep "in progress"
+  --harmony-regexp-sequence (enable "RegExp Unicode sequence properties" (in progress))
+  --harmony-weak-refs-with-cleanup-some (enable "harmony weak references with FinalizationRegistry.prototype.cleanupSome" (in progress))
+  --harmony-regexp-match-indices (enable "harmony regexp match indices" (in progress))
+  --harmony-intl-displaynames-date-types (enable "Intl.DisplayNames date types" (in progress))
+
+
+full list of options
+
+node --v8-options | less
