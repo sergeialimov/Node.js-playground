@@ -9,7 +9,7 @@ console.log('utc 2', timestamp);
 
 
 // date-fns
-import { format, utcToZonedTime, zonedTimeToUtc } from 'date-fns-tz/esm';
+import { zonedTimeToUtc } from 'date-fns-tz/esm';
 
 const zoned = zonedTimeToUtc(new Date());
 console.log('utc 3', zoned);
