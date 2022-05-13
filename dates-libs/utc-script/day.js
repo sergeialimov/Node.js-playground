@@ -7,12 +7,13 @@ dayjs.extend(isSameOrAfter);
 
 const now = dayjs.utc();
 
-console.log(now);
 
 const scheduleTime = now
   .set('hour', 23)
   .set('minute', 2)
   .set('second', 3)
+
+scheduleTime.isSameOrAfter(now);
 
 console.log('scheduleTime', scheduleTime);
 console.log(scheduleTime.isSameOrAfter(now));
