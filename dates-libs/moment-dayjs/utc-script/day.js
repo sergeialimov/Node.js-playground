@@ -2,8 +2,7 @@ import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc.js';
 import isSameOrAfter from 'dayjs/plugin/isSameOrAfter.js';
 
-dayjs.extend(utc);
-dayjs.extend(isSameOrAfter);
+dayjs.extend(utc).extend(isSameOrAfter);
 
 const now = dayjs.utc();
 
